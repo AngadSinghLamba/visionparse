@@ -1,0 +1,24 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Environment and system files
+.env
+.DS_Store
+
+# Output and data folders
+outputs/
+data/
+models/configs/*.bin
+models/configs/*.pth
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Jupyter artifacts
+.ipynb_checkpoints/
